@@ -30,7 +30,7 @@ if [ -z "$POSTGRES_USER" ] || [ -z "$POSTGRES_PASSWORD" ]; then
 fi
 
 NAMESPACE=${NAMESPACE:-n8n}
-KUBE_DIR="n8n/n8n-hosting/kubernetes"
+KUBE_DIR="n8n-hosting/kubernetes"
 
 # 3. kubeconfig 설정
 echo "▶ Starting: Set up kubectl"
