@@ -1,3 +1,11 @@
+# local
+
+docker 준비
+
+```
+minikube start --driver=docker
+```
+
 # trilium
 
 ```
